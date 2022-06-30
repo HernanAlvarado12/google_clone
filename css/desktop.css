@@ -1,0 +1,22 @@
+@media (min-width: 1024px){
+    .navbar__left--size, .navbar__setting, .navbar__more {
+        display: none;
+    }
+
+    .navbar__hide {
+        display: flex;
+        color: black;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+
+    .navbar__points {
+        width: 2rem;
+        height: 2rem;
+        object-fit: cover;
+    }
+
+    .content__logo {
+        margin-top: 7.5rem;
+    }
+}
